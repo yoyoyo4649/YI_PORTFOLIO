@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>フローリストひまわり</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- ヘッダー -->
+        <header>
+            <!-- ロゴ -->
+            <a href="#" class="header_logo">
+                <h2 class="header_logo_range1">
+                    <img src="./img/01_main/01_main_logo.png" alt="01_main_logo" width="387" height="96">
+                </h2>
+                <h2 class="header_logo_range2">
+                    <img src="./img/01_main/01_main_logo_black.png" alt="01_main_logo" width="387" height="96">
+                </h2>
+            </a>
+
+            <!-- ナビゲーション -->
+            <ul class="header_list">
+                <li class="header_list_text">
+                    <a href="#"><h2>HOME</h2></a>
+                </li>
+                <li  class="header_list_text">
+                    <a href="https://himawari87.com/company/"><h2>SHOP</h2></a>
+                </li>
+                <li  class="header_list_text">
+                    <a href="https://himawari87.com/category/products/"><h2>PRODUCTS</h2></a>
+                </li>
+                <li  class="header_list_text">
+                    <a href="./contact/index.html"><h2>CONTACT</h2></a>
+                </li>
+                <li>
+
+                    <div class="h_menu">
+
+                        <input type="checkbox" id="overlay-input">
+        
+                        <label for="overlay-input" id="overlay-button">
+                            <span></span>
+                        </label>
+        
+                        <div id="overlay">
+                            <div class="overlay_inner">
+                                <div class="overlay_list">
+                                    <div class="h_menu_logo_group">
+                                        <a href="#">
+                                            <h2 class="h_menu_logo">
+                                                <img src="./img/07_h_menu/01_h_menu_logo_black.png" alt="01_h_menu_logo_black" width="483" height="120">
+                                            </h2>
+                                        </a>
+                                    </div>
+                                    <ul class="overlay_list_text_group">
+                                        <li  class="overlay_list_text">
+                                            <a href="#">
+                                                <h2>HOME</h2>
+                                            </a>
+                                        </li>
+                                        <li  class="overlay_list_text">
+                                            <a href="https://himawari87.com/company/">
+                                                <h2>SHOP</h2>
+                                            </a>
+                                        </li>
+                                        <li  class="overlay_list_text">
+                                            <a href="https://himawari87.com/category/products/">
+                                                <h2>PRODUCTS</h2>
+                                            </a>
+                                        </li>
+                                        <li  class="overlay_list_text">
+                                            <a href="./contact/index.html">
+                                                <h2>CONTACT</h2>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="h_menu_sns">
+                                        <div class="h_menu_fuo">
+                                            <img src="./img/07_h_menu/02_h_menu_fuo.png" alt="02_h_menu_fuo" width="474" height="100">
+                                        </div>
+                                        <div class="h_menu_sns_icons">
+                                            <div class="h_menu_sns_icon">
+                                                <a href="https://www.instagram.com/ashiya_himawari_to_tentoumusi/?hl=ja" target="_blank">
+                                                    <img src="./img/07_h_menu/03_Instagram_Glyph_Gradient.png" alt="03_Instagram_Glyph_Gradient" width="90" height="90">
+                                                </a>
+                                            </div>
+                                            <div class="h_menu_sns_icon">
+                                                <a href="https://www.facebook.com/1187himawari1187" target="_blank">
+                                                    <img src="./img/07_h_menu/04_f_logo_RGB-Blue_1024.png" alt="04_f_logo_RGB-Blue_1024" width="90" height="90">
+                                                </a>
+                                            </div>
+                                            <div class="h_menu_sns_icon">
+                                                <a href="https://linevoom.line.me/user/_dbJlA255eW5T6Jx1XYyqHvmfGo20MGSd38MQbS8?utm_medium=osx&utm_source=desktop&utm_campaign=OA_Profile" target="_blank">
+                                                    <img src="./img/07_h_menu/05_LINE_APP_iOS.png" alt="05_LINE_APP_iOS" width="90" height="90">
+                                                </a>
+                                            </div>
+                                            <div class="h_menu_sns_icon">
+                                                <a href="https://www.youtube.com/channel/UCUSm39SoXdb5iiTqqntRPXA" target="_blank">
+                                                    <img src="./img/07_h_menu/06_youtube.png" alt="06_youtube" width="90" height="90">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+
+                </li>
+            </ul>
+
+
+        </header>
+
+        <div id="main" class="main">
+
+            <div class="main_inner">
+
+                <div class="main_slide-image"></div>
+                <div class="main_slide-image"></div>
+                <div class="main_slide-image"></div>
+
+                <h1 class="main_logo">
+                    <img src="./img/01_main/02_main_logo_circle.png" alt="02_main_logo_circle" width="335" height="400">
+                </h1>
+
+                <div class="main_scrolldown">
+                    <div class="main_scrolldown_inner">
+                        <p>SCROLL</p>
+                    </div>
+                </div>
+
+            </div><!-- main_inner -->
+
+        </div><!-- main -->
+
+        <div id="shop" class="shop">
+
+            <div class="shop_inner">
+
+                <h2 class="shop_title">
+                    <img src="./img/02_shop/01_shop_title.png" alt="01_shop_title" width="341" height="100">
+                </h2>
+
+                <ul class="shop_text">
+                    <li class="shop_text_list1">
+                        <p>
+                            想像、元気、調和<br>
+                            花のデザインは言葉より感情の運び屋さん<br>
+                            花や植物は素直な自然素材
+                        </p>
+                        <div class="shop_text_list1_name">
+                            <img src="./img/02_shop/02_shop_name.png" alt="02_shop_name" width="199" height="62">
+                        </div>
+                    </li>
+                    <li class="shop_text_list2">
+                        <p>
+                            １本の花からディスプレイやフラワーショーまで、<br>
+                            花は豊かに表現し私たちの心を満たしてくれます。<br>
+                            あらゆるシーンのお手伝いができれば嬉しいです。<br>
+                            どうぞお気軽にお尋ねくださいませ。<br>
+                        </p>
+                    </li>
+                    <li class="shop_text_list3">
+                        <img src="./img/02_shop/03_shop_text_frame.png" alt="03_shop_text_frame" width="1100" height="400">
+                        <p class="shop_text_list3_text">
+                            アトリエは、<span>完全予約制</span>です。<br>
+                            お花はもちろんの事お花に因んだ<span>小物雑貨</span>も沢山。<br>
+                            <span>オンラインショップ</span>からも購入頂けます。<br>
+                        </p>
+                    </li>
+                </ul>
+
+                <div class="shop_photo1">
+                    <img src="./img/02_shop/04_shop_photo.png" alt="04_shop_photo" width="650" height="372">
+                </div>
+                <div class="shop_photo2">
+                    <img src="./img/02_shop/05_shop_photo.png" alt="05_shop_photo" width="650" height="372">
+                </div>
+                <div class="shop_photo3">
+                    <img src="./img/02_shop/06_shop_photo.png" alt="06_shop_photo" width="800" height="458">
+                </div>
+
+                <div class="shop_btn">
+                    <a href="https://himawari87.com/company/" class="shop_btn_range">
+                        <img src="./img/02_shop/07_shop_btn.png" alt="07_shop_btn" width="452" height="100">
+                    </a>
+                </div>
+
+            </div><!-- shop_inner -->
+
+        </div><!-- shop -->
+
+        <div id="sns" class="sns">
+
+            <div class="sns_inner">
+
+                <div class="sns_group">
+
+                    <h2 class="sns_title">
+                        <img src="./img/03_sns/01_sns_title.png" alt="01_sns_title" width="244" height="100">
+                    </h2>
+    
+                    <div class="sns_fuo">
+                        <img src="./img/03_sns/02_sns_fuo.png" alt="02_sns_fuo" width="586" height="118">
+                    </div>
+    
+                    <ul class="sns_icons">
+                        <li class="sns_icon">
+                            <a href="https://www.instagram.com/ashiya_himawari_to_tentoumusi/?hl=ja" target="_blank">
+                                <img src="./img/03_sns/03_Instagram_Glyph_Gradient.png" alt="03_Instagram_Glyph_Gradient" width="120" height="120">
+                            </a>
+                        </li>
+                        <li class="sns_icon">
+                            <a href="https://www.facebook.com/1187himawari1187" target="_blank">
+                                <img src="./img/03_sns/04_f_logo_RGB-Blue_1024.png" alt="04_f_logo_RGB-Blue_1024" width="120" height="120">
+                            </a>
+                        </li>
+                        <li class="sns_icon">
+                            <a href="https://linevoom.line.me/user/_dbJlA255eW5T6Jx1XYyqHvmfGo20MGSd38MQbS8?utm_medium=osx&utm_source=desktop&utm_campaign=OA_Profile" target="_blank">
+                                <img src="./img/03_sns/05_LINE_Brand_icon.png" alt="05_LINE_Brand_icon" width="120" height="120">
+                            </a>
+                        </li>
+                    </ul>
+
+                </div><!-- sns_group -->
+
+                <!-- width:175 -->
+                <div class="sns_photo1">
+                    <img src="./img/03_sns/photo_gallery/01_350_440.png" alt="01_350_440" width="350" height="440">
+                </div>
+                <div class="sns_photo2">
+                    <img src="./img/03_sns/photo_gallery/02_350_440.png" alt="02_350_440" width="350" height="440">
+                </div>
+
+                <!-- width:139 -->
+                <div class="sns_photo3">
+                    <img src="./img/03_sns/photo_gallery/03_278_350.png" alt="03_278_350" width="278" height="350">
+                </div>
+                <div class="sns_photo4">
+                    <img src="./img/03_sns/photo_gallery/04_278_350.png" alt="04_278_350" width="278" height="350">
+                </div>
+                <div class="sns_photo5">
+                    <img src="./img/03_sns/photo_gallery/05_278_350.png" alt="05_278_350" width="278" height="350">
+                </div>
+                <div class="sns_photo6">
+                    <img src="./img/03_sns/photo_gallery/06_278_350.png" alt="06_278_350" width="278" height="350">
+                </div>
+
+                <!-- width:175 -->
+                <div class="sns_photo7">
+                    <img src="./img/03_sns/photo_gallery/07_480_604.png" alt="07_480_604" width="480" height="604">
+                </div>
+                <div class="sns_photo8">
+                    <img src="./img/03_sns/photo_gallery/08_480_604.png" alt="08_480_604" width="480" height="604">
+                </div>
+
+            </div><!-- sns_inner -->
+
+        </div><!-- sns -->
+
+        <div id="movie" class="movie">
+
+            <div class="movie_inner">
+
+                <h2 class="movie_title">
+                    <img src="./img/04_movie/01_movie_title.png" alt="01_movie_title" width="456" height="100">
+                </h2>
+
+                <div class="movie_group">
+
+                    <div class="movie_frame">
+                        <img src="./img/04_movie/02_movie_frame.png" alt="02_movie_frame" width="1600" height="1010">
+
+                        <div class="movie_youtube">
+                            <iframe width="720" height="405" src="https://www.youtube.com/embed/kAYZxqgO_-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <ul class="movie_channel">
+
+                    <li class="movie_photoname">
+
+                        <a href="https://www.youtube.com/channel/UCUSm39SoXdb5iiTqqntRPXA" target="_blank">
+                            <div class="movie_photo">
+                                <img src="./img/04_movie/03_movie_channel_photo.png" alt="03_movie_channel_photo" width="176" height="176">
+                            </div>
+                            <h3 class="movie_name">
+                                <p>
+                                    フローリストひまわり
+                                </p>
+                            </h3>
+                        </a>
+
+                    </li>
+
+                    <li class="movie_btn">
+                        <a href="https://www.youtube.com/channel/UCUSm39SoXdb5iiTqqntRPXA" target="_blank">
+                            <img src="./img/04_movie/04_movie_btn.png" alt="04_movie_btn" width="296" height="100">
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div><!-- movie_inner -->
+
+        </div><!-- movie -->
+
+        <div id="products" class="products">
+
+            <div class="products_inner">
+
+                <h2 class="products_title">
+                    <img src="./img/05_products/01_products_title.png" alt="01_products_title" width="748" height="100">
+                </h2>
+
+                <div class="slider">
+                    <div class="products_photo">
+                        <a href="https://himawari87.com/products/seika/%e7%94%9f%e8%8a%b1/">
+                            <img src="img/05_products/photogallery/01_products_photo.png" alt="01_products_photo" width="728" height="584"/>
+                        </a>
+                    </div>
+                    <div class="products_photo">
+                        <a href="https://himawari87.com/products/flowerdisplay/flower-display/">
+                            <img src="img/05_products/photogallery/02_products_photo.png" alt="02_products_photo" width="728" height="584"/>
+                        </a>
+                    </div>
+                    <div class="products_photo">
+                        <a href="https://himawari87.com/products/school/flowerevent-school/">
+                            <img src="img/05_products/photogallery/03_products_photo.png" alt="03_products_photo" width="728" height="584"/>
+                        </a>
+                    </div>
+                    <div class="products_photo">
+                        <a href="https://himawari87.com/products/ornamental/%e8%a6%b3%e8%91%89%e6%a4%8d%e7%89%a9%e3%80%81%e8%83%a1%e8%9d%b6%e8%98%ad/">
+                            <img src="img/05_products/photogallery/04_products_photo.png" alt="04_products_photo" width="728" height="584"/>
+                        </a>
+                    </div>
+                    <div class="products_photo">
+                        <a href="https://himawari87.com/products/swag/%e5%b0%8f%e7%89%a9%e9%9b%91%e8%b2%a8/">
+                            <img src="img/05_products/photogallery/05_products_photo.png" alt="05_products_photo" width="728" height="584"/>
+                        </a>
+                    </div>
+                    <div class="products_photo">
+                        <a href="https://himawari87.com/products/natural/%e8%87%aa%e7%84%b6%e3%83%95%e3%83%a9%e3%83%af%e3%83%bc/">
+                            <img src="img/05_products/photogallery/06_products_photo.png" alt="06_products_photo" width="728" height="584"/>
+                        </a>
+                    </div>
+                    <div class="products_photo">
+                        <a href="https://himawari87.com/products/preserved/%e3%83%97%e3%83%aa%e3%82%b6%e3%83%bc%e3%83%96%e3%83%89%e3%83%95%e3%83%a9%e3%83%af%e3%83%bc/">
+                            <img src="img/05_products/photogallery/07_products_photo.png" alt="07_products_photo" width="728" height="584"/>
+                        </a>
+                    </div>
+                    <div class="products_photo">
+                        <a href="https://himawari87.com/products/art/%e3%82%a2%e3%83%bc%e3%83%86%e3%82%a3%e3%83%95%e3%82%a3%e3%82%b7%e3%83%a3%e3%83%ab%e3%83%95%e3%83%a9%e3%83%af%e3%83%bc/">
+                            <img src="img/05_products/photogallery/08_products_photo.png" alt="08_products_photo" width="728" height="584"/>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="products_btn">
+                    <a href="https://himawari87.com/category/products/">
+                        <img src="./img/05_products/02_products_btn.png" alt="02_products_btn" width="452" height="100">
+                    </a>
+                </div>
+
+            </div><!-- products_inner -->
+
+        </div><!-- products -->
+
+        <div id="footer" class="footer">
+
+            <div class="footer_inner">
+
+                <div class="footer_group">
+                    <h2 class="footer_logo">
+                        <a href="#">
+                            <img src="./img/06_footer/01_footer_logo.png" alt="01_footer_logo" width="1015" height="250">
+                        </a>
+                    </h2>
+    
+                    <div class="footer_text">
+                        <p class="footer_text1">
+                            フローリストひまわり
+                        </p>
+                        <!-- <p class="footer_text2">
+                            <span>〒659-0016</span><span>兵庫県芦屋市親王塚町10<span class="haihun">-</span>1</span><br>
+                            E-mail.florist87himawari@gmail.com<br>
+                            <span>TEL.090<span class="haihun">-</span>1952<span class="haihun">-</span>4384</span><span>FAX.0797<span class="haihun">-</span>97<span class="haihun">-</span>1614</span><br>
+                        </p> -->
+                        <p class="footer_text2">
+                            <span>〒659-0016</span>兵庫県芦屋市親王塚町10-1<br>
+                        </p>
+                        <p class="footer_text3">
+                            E-mail.florist87himawari@gmail.com<br>
+                            <span>TEL.090-1952-4384</span><span>FAX.0797-97-1614</span><br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer_sns">
+
+                    <div class="footer_sns_icon">
+                        <a href="https://www.instagram.com/ashiya_himawari_to_tentoumusi/?hl=ja" target="_blank">
+                            <img src="./img/06_footer/02_Instagram_Glyph_White.png" alt="02_Instagram_Glyph_White" width="120" height="120">
+                        </a>
+                    </div>
+                    <div class="footer_sns_icon">
+                        <a href="https://www.facebook.com/1187himawari1187" target="_blank">
+                            <img src="./img/06_footer/03_f_logo_RGB-White_1024.png" alt="03_f_logo_RGB-White_1024" width="120" height="120">
+                        </a>
+                    </div>
+                    <div class="footer_sns_icon">
+                        <a href="https://linevoom.line.me/user/_dbJlA255eW5T6Jx1XYyqHvmfGo20MGSd38MQbS8?utm_medium=osx&utm_source=desktop&utm_campaign=OA_Profile" target="_blank">
+                            <img src="./img/06_footer/04_line.png" alt="04_line" width="120" height="120">
+                        </a>
+                    </div>
+                    <div class="footer_sns_icon">
+                        <a href="https://www.youtube.com/channel/UCUSm39SoXdb5iiTqqntRPXA" target="_blank">
+                            <img src="./img/06_footer/05_youtube.png" alt="05_youtube" width="120" height="120">
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="copyright">
+                    <p>
+                        Copyright © FLORIST HIMAWARI All Right Reserved
+                    </p>
+                </div>
+
+            </div><!-- footer_inner -->
+
+        </div><!-- footer -->
+
+    </div><!-- wrapper -->
+
+    <script type="text/javascript" src="js/header.js"></script>
+
+    <!-- slick -->
+    <script type="text/javascript" src="./js/jquery-3.6.3.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+
+
+    
+</body>
+
+</html>
