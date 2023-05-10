@@ -30,24 +30,24 @@
     left: 0;
 }
 .slick-next:before{
-    background: url(../img/03_profile/slider_arrow_r.png)!important;
+    background: url(../img/03_profile/slider_arrow_r.webp)!important;
     background-size: contain!important;
     background-repeat: no-repeat;
     transition: all 0.3s ease;
 }
 .slick-prev:before{
-    background: url(../img/03_profile/slider_arrow_l.png)!important;
+    background: url(../img/03_profile/slider_arrow_l.webp)!important;
     background-size: contain!important;
     background-repeat: no-repeat;
     transition: all 0.3s ease;
 }
 .slick-next:hover:before{
-    background: url(../img/03_profile/slider_arrow_r_f.png)!important;
+    background: url(../img/03_profile/slider_arrow_r_f.webp)!important;
     background-size: contain!important;
     background-repeat: no-repeat;
 }
 .slick-prev:hover:before{
-    background: url(../img/03_profile/slider_arrow_l_f.png)!important;
+    background: url(../img/03_profile/slider_arrow_l_f.webp)!important;
     background-size: contain!important;
     background-repeat: no-repeat;
 }

@@ -10,9 +10,9 @@
   <meta property="og:image" content="img/ogp.png">
   <meta name="description" content="YOSHIKI IKEDAのポートフォリオサイトです" />
   <title>YOSHIKI IKEDA PORTFOLIO</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link href="./css/reset.css" media="all" rel="stylesheet" type="text/css" />
   <link href="./css/styles.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="./img/favicon.ico" />
@@ -26,13 +26,16 @@
     <header class="header ">
       <div class="container">
         <h1 class="header-logo">
-          <a href="#">YOSHIKI IKEDA</a>
+          <a href="#">
+            <img src="./img/logo.webp" alt="logo" width="22" height="22">
+            <p>Y.I.</p>
+          </a>
         </h1>
         <nav class="gnav">
           <ul class="gnav-list">
-            <li class="gnav-item"><a href="#works">WORKS</a></li>
-            <li class="gnav-item"><a href="#skill">SKILL</a></li>
             <li class="gnav-item"><a href="#about">PROFILE</a></li>
+            <li class="gnav-item"><a href="#skill">SKILL</a></li>
+            <li class="gnav-item"><a href="#works">WORKS</a></li>
             <li class="gnav-item"><a href="#contact">CONTACT</a></li>
           </ul>
         </nav>
@@ -40,6 +43,7 @@
     </header>
     <!-- /header -->
 
+    <!-- content -->
     <main class="content">
 
       <!-- mv -->
@@ -50,6 +54,42 @@
         </div>
       </div>
       <!-- /mv -->
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="container">
+          <h2 class="title">PROFILE</h2>
+          <div class="profile">
+            <p class="profile-img">
+              <img src="img/profile.jpg" alt="">
+            </p>
+            <div class="profile-body">
+              <p>
+                池田 佳樹(いけだ よしき)<br>
+                2001.4.13 生(満22歳)　徳島県出身。<br>
+                神戸電子専門学校 グラフィックデザイン学科 Web専攻 2年
+              </p>
+              <p>
+                グラフィックデザイン学科で紙媒体やWeb制作について学んでいます。
+                趣味はランニング・映画鑑賞・スポーツ観戦。
+                専門1年生の3月から現在、制作会社でデザイナーとしてアルバイトをしています。主なクライアント先は飲食関係です。基本的に週に3回勤務しています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /about -->
+
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="container">
+          <h2 class="title">SKILL</h2>
+          <div class="skill-list">
+            <img class="skill-listimg" src="./img/iconlist.webp" alt="">
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
 
       <!-- works -->
       <section class="works section" id="works">
@@ -121,42 +161,6 @@
       </section>
       <!-- /works -->
 
-      <!-- skill -->
-      <section class="skill section" id="skill">
-        <div class="container">
-          <h2 class="title">SKILL</h2>
-          <div class="skill-list">
-            <img class="skill-listimg" src="./img/iconlist.jpg" alt="">
-          </div>
-        </div>
-      </section>
-      <!-- /skill -->
-
-      <!-- about -->
-      <section class="about section" id="about">
-        <div class="container">
-          <h2 class="title">PROFILE</h2>
-          <div class="profile">
-            <p class="profile-img">
-              <img src="img/profile.jpg" alt="">
-            </p>
-            <div class="profile-body">
-              <p>
-                池田 佳樹(いけだ よしき)<br>
-                2001.4.13 生(満22歳)　徳島県出身。<br>
-                神戸電子専門学校 グラフィックデザイン学科 Web専攻 2年
-              </p>
-              <p>
-                グラフィックデザイン学科で紙媒体やWeb制作について学んでいます。
-                趣味はランニング・映画鑑賞・スポーツ観戦。
-                専門1年生の3月から現在、制作会社でデザイナーとしてアルバイトをしています。主なクライアント先は飲食関係です。基本的に週に3回勤務しています。
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /about -->
-
       <!-- contact -->
       <section class="contact section" id="contact">
         <div class="container">
@@ -165,6 +169,8 @@
             お問い合わせは、<br class="sp-only">メールにてお願いいたします。
           </p>
           <div class="contact-list">
+            <!-- <a class="contact-item" href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>
+            <a class="contact-item" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a> -->
             <span class="contact-item">
               <a href="mailto:kd1351684@st.kobedenshi.ac.jp">kd1351684@st.kobedenshi.ac.jp</a>
             </span>
@@ -174,9 +180,10 @@
       </section>
       <!-- /contact -->
       <div class="page-top" id="js-page-top">
-        <span class="material-icons-outlined">expand_less</span>
+        <span class="material-icons-outlined">TOPへ</span>
       </div>
     </main>
+    <!-- content -->
 
     <!-- footer -->
     <footer class="footer">
