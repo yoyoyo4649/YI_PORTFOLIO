@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  font-family: "Roboto","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
   font-size: 15px;
   letter-spacing: .05em;
   color: #333;
@@ -18,8 +18,6 @@ img {
   border-style: none;
 }
 
-
-
 .pc-only {
   display: block;
 }
@@ -28,11 +26,9 @@ img {
   display: none;
 }
 
-/*--------------------------------
- レイアウト
----------------------------------*/
+/* レイアウト */
 .wrapper {
-  padding-top: 73px;
+  padding-top: 60px;
 }
 
 .section {
@@ -49,9 +45,7 @@ img {
   padding: 0 40px;
 }
 
-/*--------------------------------
- 見出し
----------------------------------*/
+/* タイトル */
 .title {
   font-size: 34px;
   font-weight: bold;
@@ -68,9 +62,7 @@ img {
   margin-bottom: 30px;
 }
 
-/*--------------------------------
-ヘッダー
----------------------------------*/
+/* ヘッダー */
 .header {
   position: fixed;
   top: 0;
@@ -84,7 +76,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 18px 40px;
 }
 
 .header-logo {
@@ -96,7 +88,15 @@ img {
 }
 
 .header-logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
   color: #333;
+}
+.header-logo a p {
+  padding-top: 2px;
 }
 
 .gnav-list {
@@ -136,9 +136,7 @@ img {
   width: 100%;
 }
 
-/*--------------------------------
- メインビジュアル
----------------------------------*/
+/* メインビジュアル */
 .mv {
   display: flex;
   align-items: center;
@@ -148,7 +146,7 @@ img {
 
   background-image: url(../img/mv_bg.jpg);
   background-size: cover;
-  background-position: center 19%;
+  background-position: center 18%;
 }
 
 .mv-container {
@@ -178,9 +176,7 @@ img {
   line-height: 1.8;
 }
 
-/*--------------------------------
- Works
----------------------------------*/
+/* works */
 .works-list {
   display: flex;
   flex-wrap: wrap;
@@ -217,48 +213,13 @@ img {
   margin-top: 5px;
 }
 
-/*--------------------------------
- Skill
----------------------------------*/
+/* skill */
 .skill-list {
   margin:  0 auto;
   text-align: center;
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: -50px; */
 }
 
-/* .skill-item {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  width: 48%;
-  margin-bottom: 50px;
-}
-
-.skill-img {
-  width: 60px;
-  height: auto;
-  margin-right: 20px;
-}
-
-.skill-body {
-  flex: 1;
-}
-
-.skill-name {
-  margin-bottom: 10px;
-}
-
-.skill-text {
-  font-size: 14px;
-  line-height: 1.8;
-} */
-
-/*--------------------------------
- About
----------------------------------*/
+/* about */
 .profile {
   display: flex;
   flex-wrap: wrap;
@@ -286,9 +247,7 @@ img {
   margin-bottom: 30px;
 }
 
-/*--------------------------------
- Contact
----------------------------------*/
+/* contact */
 .contact {
   text-align: center;
 }
@@ -310,9 +269,7 @@ img {
   text-align: center;
 }
 
-/*--------------------------------
- ページトップ
----------------------------------*/
+/* ページトップ */
 .page-top {
   font-weight: bold;
   padding: 10px;
@@ -326,9 +283,7 @@ img {
   color: #fff;
 }
 
-/*--------------------------------
- フッター
----------------------------------*/
+/* footer */
 .footer {
   padding: 30px;
   background-color: #333;
@@ -340,9 +295,7 @@ img {
   color: #797979;
 }
 
-/*--------------------------------
- 下層：Worksページ
----------------------------------*/
+/* 下層：Worksページ */
 .article {
   padding: 80px 0;
 }
@@ -458,7 +411,7 @@ img {
 
   /* レイアウト */
   .wrapper {
-    padding-top: 57px;
+    padding-top: 50px;
   }
 
   .section {
